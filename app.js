@@ -86,3 +86,49 @@ for( let i=0; i < cars.length; i++){
     let eachCar= cars[i];
     console.log(eachCar);
 }
+
+
+
+//objects
+//key: value pairs
+
+const lizz= {
+    fullName: "Lizz Marie Westerband",
+    age: 26,
+    myLoc: "Orange County",
+    placesTraveled: ["Bahamas", "Puerto Rico", "NYC", "Virgin Gorda"]
+}
+console.log(lizz)
+
+console.log(lizz.myLoc)
+
+
+console.log(lizz.placesTraveled[2])
+
+const myPost ={
+username: "@lizz",
+likes: 100,
+comments: ['really nice', "so cute", " woah"],
+caption: "new kitty",
+picture: "link",
+}
+
+console.log(myPost)
+
+myPost.myLocation = "OC"
+console.log(myPost)
+//username, picture, comments, likes, shares, captions
+
+
+//instagrm post object
+
+const insta= {
+    username: "@lizzfrizz",
+    hearts: 50,
+    caption: "my wedding day",
+    comments: ["congrats", "so happy for you", "yaaasss queen"],
+    shares: 1
+
+}
+
+console.log(insta)
