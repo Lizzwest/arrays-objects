@@ -8,8 +8,8 @@ var favoriteNumber= 7;
 console.log(favoriteNumber);
 
 
-var musicals = ["Beetlejuice", "Hamilton"," Lion King", "Matilda", "Shrek"]
-console.log(musicals);
+// var musicals = ["Beetlejuice", "Hamilton"," Lion King", "Matilda", "Shrek"]
+// console.log(musicals);
 
 
 // while loops
@@ -49,4 +49,22 @@ var b= 36
 while( a <= b){
     console.log(a);
     a += 2;
+}
+
+
+
+//for loops
+for( var i =0; i <10; i++){
+    console.log(i);
+}
+//print musicals
+
+var musicals = ["Beetlejuice", "Hamilton","Lion King", "Matilda", "Shrek"]
+console.log(musicals);
+
+
+for(var i= 0; i< musicals.length; i++){
+    var eachMusical = musicals[i];
+// console.log(musicals[i]);
+console.log(eachMusical);
 }
