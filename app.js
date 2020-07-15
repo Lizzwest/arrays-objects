@@ -147,3 +147,45 @@ FourthOfJulyPost['likes'] = 15;
 FourthOfJulyPost.comments = ['ok...'];
 FourthOfJulyPost.caption = 'Writing code on the 4th';
 console.log(FourthOfJulyPost);
+
+
+//Functions standard way
+
+// console.log("Hello world")
+
+function sayHello(){
+
+console.log('Hello');
+}
+
+sayHello();
+
+//Function expression
+
+const sayHelloAgain = function(){
+
+    console.log("Hello Again")
+};
+sayHelloAgain();
+
+//even more functions this one has an arrow
+
+const sayHelloLouder = () =>{
+    console.log("Can you hear me now?")
+}
+sayHelloLouder();
+
+const numb = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+const numbe = [10, 20, 30, 40, 50, 60, 70, 80, 90]
+function printNumbers(array){
+    for( let i = 0; i< array.length; i++){
+        let num = array[i];
+        if(num < 50){
+        console.log("less than fifty " + num);
+    }else{
+        console.log("This number is greater than 50 " + num);
+    }
+}
+}
+printNumbers(numb);
+printNumbers(numbe);
