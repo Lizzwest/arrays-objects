@@ -80,3 +80,9 @@ for(var i=0; i < pets.length; i++){
     var eachPet = pets[i];
     console.log(eachPet);
 }
+
+const cars = ["subaru", "Tesla", "prius"];
+for( let i=0; i < cars.length; i++){
+    let eachCar= cars[i];
+    console.log(eachCar);
+}
