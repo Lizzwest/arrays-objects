@@ -31,3 +31,22 @@ while( numThree < numTwo){
 }
 
 console.log("--------------")
+
+///some more while loops
+
+
+var nume = 1
+var numeTwo = 43
+
+while( nume <= numeTwo){
+    console.log( nume + "ca caw");
+    nume += 3;
+}
+console.log("--------------")
+var a = 3
+var b= 36
+
+while( a <= b){
+    console.log(a);
+    a += 2;
+}
