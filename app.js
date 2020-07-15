@@ -68,3 +68,15 @@ for(var i= 0; i< musicals.length; i++){
 // console.log(musicals[i]);
 console.log(eachMusical);
 }
+
+
+//make an array
+// use a for loop to iterate through array
+//print each element in your array
+
+var pets= ["Ping", "Luna", "Bambam", "Pebbles", "Rogelio"]
+
+for(var i=0; i < pets.length; i++){
+    var eachPet = pets[i];
+    console.log(eachPet);
+}
