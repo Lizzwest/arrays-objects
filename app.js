@@ -132,3 +132,18 @@ const insta= {
 }
 
 console.log(insta)
+
+
+let sentence = 'I \'m cool';// escape for using apostraphes
+
+
+//another way
+
+const FourthOfJulyPost = {
+    username: '@ga'
+};
+FourthOfJulyPost.picture = 'https://instagram.com/.....';
+FourthOfJulyPost['likes'] = 15;
+FourthOfJulyPost.comments = ['ok...'];
+FourthOfJulyPost.caption = 'Writing code on the 4th';
+console.log(FourthOfJulyPost);
